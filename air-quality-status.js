@@ -2,7 +2,7 @@ let aqi = 55;
 
 console.log("Your city AQI status is:")
 
-if (aqi >= 0 && aqi <= 100){
+if (aqi >= 0 && aqi <= 50){
   console.log("Good")
 } else if (aqi >= 51 && aqi <= 100){
   console.log("Moderate")
