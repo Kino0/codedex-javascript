@@ -29,3 +29,24 @@ if (randomNumber === 1) {
 
 console.log(userInput);
 console.log(response);
+
+// Another examble by index:
+/*
+
+const responses = [
+    "Yes - definitely.",
+    "It is decidedly so.",
+    "Without a doubt.",
+    "Reply hazy, try again.",
+    "Ask again later.",
+    "Better not tell you now.",
+    "My sources say no.",
+    "Outlook not so good.",
+    "Very doubtful."
+];
+
+// Choice of index 
+let randomNumber = 0; 
+console.log(responses[randomNumber]);
+
+*/
