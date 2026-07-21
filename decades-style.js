@@ -12,4 +12,6 @@ if (year >= 1920 && year <= 1929){
   console.log("Fabulous Fifties")
 } else if (year >= 1960 && year <= 1969){
   console.log("Swinging Sixties")
+} else {
+  console.log("Year out of range")
 }
