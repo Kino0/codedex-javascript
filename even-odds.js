@@ -1,0 +1,12 @@
+for (let i = 1; i <= 50; i++){
+  if (i % 2 == 1){
+    continue;
+  }
+  
+  console.log(i)
+  
+  if (i === 42){
+    console.log("Item is 42, now we stop here.")
+    break;
+  }
+}
